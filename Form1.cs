@@ -31,7 +31,7 @@ namespace 西门子重启修复
                 Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Control\Session Manager", true);
 
             //读取值
-            var o = openSubKey.GetValue("PendingFileRename Operations");
+            var o = openSubKey.GetValue("PendingFileRenameOperations");
             if (o != null)
             {
                 status.Items[0].Text = "发现问题";
@@ -50,7 +50,7 @@ namespace 西门子重启修复
             if (_exist)
             {
                 // //删除值
-                openSubKey.DeleteValue("PendingFileRename Operations");
+                openSubKey.DeleteValue("PendingFileRenameOperations");
                 MessageBox.Show("成功", "结果", MessageBoxButtons.OK);
                 _exist = false;
 
