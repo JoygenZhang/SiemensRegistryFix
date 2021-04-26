@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "西门子重启修复", "西门子重启修复.csproj", "{1128A9FC-760F-4697-9E57-63DB81E07867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1128A9FC-760F-4697-9E57-63DB81E07867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1128A9FC-760F-4697-9E57-63DB81E07867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1128A9FC-760F-4697-9E57-63DB81E07867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1128A9FC-760F-4697-9E57-63DB81E07867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABCC991C-0056-4074-AAFE-567CB85022C5}
+	EndGlobalSection
+EndGlobal
